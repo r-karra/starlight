@@ -7,7 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Rajesh Karra',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/r-karra' }],
 			sidebar: [
 				{
 					label: 'Guides',
