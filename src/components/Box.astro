@@ -1,17 +1,25 @@
 ---
+const { p = 0, color = 'inherit', bg = 'transparent' } = Astro.props;
+
+const padding = typeof p === 'number' ? `${p * 0.25}rem` : (p ?? '0');
+const styleAttr = `padding: ${padding}; color: ${color}; background: ${bg};`;
+---
+
+<div style={styleAttr}>
+  <slot />
+</div>
+---
 // Simple Box component used in MDX pages.
 // Props:
 // - p: number|string -> padding (number treated as scale * 0.25rem)
 // - color: string -> CSS color value
 // - bg: string -> CSS background value
 ---
-<script setup>
 const { p, color, bg } = Astro.props;
 
-const padding = typeof p === 'number' ? `${p * 0.25}rem` : (p ?? null);
-const style = `padding: ${padding ?? '0'}; color: ${color ?? 'inherit'}; background: ${bg ?? 'transparent'};`;
-</script>
+const padding = typeof p === 'number' ? `${p * 0.25}rem` : (p ?? '0');
+const styleAttr = `padding: ${padding}; color: ${color ?? 'inherit'}; background: ${bg ?? 'transparent'};`;
 
-<div style={style}>
+<div style={styleAttr}>
   <slot />
 </div>
