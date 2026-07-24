@@ -32,6 +32,28 @@ A practical prototype should include:
 - A laptop workflow for deeper review, research, note refinement, and writing.
 - A lightweight sync layer that preserves continuity without imposing intrusive attention demands.
 
+## MVP scope
+The first build should validate a small set of end-to-end workflows with existing hardware and APIs.
+- Student workflow: capture lecture audio or notes on XR glasses, generate a study summary, and create tasks or reminders on the mobile companion.
+- Research workflow: ask the glasses for topic refinement, route the request through phone/cloud AI services, and present a concise explanation back on the glasses.
+- Work workflow: create a project task from voice input, sync it to phone and laptop, and resume deeper work on the laptop later.
+- Privacy workflow: allow users to explicitly approve capture, sharing, and device handoff for each session.
+
+## Technical architecture
+A minimal architecture should map device roles and data flow clearly:
+- Capture layer: XR glasses provide audio, camera, and command capture; the phone provides local user interaction and permissions.
+- Orchestration layer: the Android companion app manages context, syncs state, and decides when to route work to laptop or cloud.
+- Compute layer: cloud services and AI integrations refine captured content, summarize concepts, and support research assistance.
+- Continuity layer: a shared state store keeps tasks, notes, reminders, and selected context available across devices.
+- Privacy layer: explicit consent, selective sync, and user review are baked into handoff rules.
+
+## Prototype artifacts
+The implementation should produce a small set of artifacts that make the prototype buildable and testable:
+- A simplified interaction flow for XR capture → mobile sync → laptop review.
+- Wireframes or diagrams for the student capture and research assistance workflows.
+- A model integration plan describing which AI services handle summary, topic refinement, and personalization.
+- A user validation checklist for stress reduction, continuity, and non-intrusive behavior.
+
 ## Aim / Mission
 The prototype is intended to bring devices, software stacks, and AI together in a coherent system that helps people reclaim attention from addictive screens and the pressure of constant technology use.
 
