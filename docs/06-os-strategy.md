@@ -4,12 +4,13 @@
 This document frames the operating system strategy for Starlight Platform as a future direction rather than an immediate implementation claim.
 
 ## Background
-The platform is intentionally described as compatible with existing devices first. A deeper customization path can later be considered through Android Open Source Project (AOSP)-based work, especially for specialized wearable and mobile experiences.
+The platform is intentionally described as compatible with existing devices first. A deeper customization path can later be considered through Android Open Source Project (AOSP)-based work, especially for XR smart glasses and Android mobile experiences that may benefit from more explicit control of capture, task routing, and privacy.
 
 ## Goals
 - Avoid making unsupported claims about proprietary platform internals.
 - Position AOSP-based customization as a long-term, research-oriented direction.
 - Provide a realistic path from prototype to deeper integration.
+- Preserve a clear distinction between current companion-app prototypes and later OS-level research work.
 
 ## System design
 The proposed strategy has three stages:

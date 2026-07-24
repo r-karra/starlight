@@ -4,9 +4,9 @@
 
 Starlight Platform is a documentation-first research platform for an ambient intelligence system. The repository and platform are named Starlight Platform. "Project Divine Connect" remains a working codename for the first product concept that may emerge from this research direction.
 
-The work explores how XR smart glasses, Android mobile devices, laptop workstations, and cloud services can coordinate to reduce cognitive load and support everyday work, learning, navigation, and reflection. The emphasis is on calm assistance, explicit user control, and a practical path from current hardware toward more specialized reference systems.
+The work explores how Google XR smart glasses, Android phones, Googlebook or Windows/Linux/Mac laptops, and wearable devices can coordinate to reduce cognitive load and support everyday work, learning, navigation, and reflection. The emphasis is on calm assistance, explicit user control, and a practical path from current hardware toward more specialized reference systems.
 
-Starlight Platform is not framed as a single app or gadget project. It is a platform concept for cross-device assistance, research orchestration, and human-centered computing.
+Starlight Platform is not framed as a single app or gadget project. It is a platform concept for cross-device assistance, research orchestration, and human-centered computing that aims to reduce screen addiction, technological dependency, work stress, and desire-driven anxiety.
 
 ## Three-layer structure
 - Today: prototype the experience on existing hardware and companion workflows.
@@ -20,7 +20,8 @@ Starlight Platform investigates how computing can become less demanding and more
 - supporting learning and professional work across devices
 - providing low-friction assistance in daily routines
 - preserving privacy and user agency
-- enabling optional reflection and wellbeing support
+- encouraging peaceful living, stronger family and community relationships, and values-based reflection
+- helping people focus on what matters rather than being consumed by possessions, status, or constant digital engagement
 
 ## Platform framing
 

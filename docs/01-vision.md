@@ -10,7 +10,7 @@ The repository and platform are named Starlight Platform. "Project Divine Connec
 Modern computing increasingly fragments attention across notifications, applications, meetings, and devices. The opportunity is to reduce that burden by creating systems that coordinate work in the background, present concise assistance when useful, and remain under user control.
 
 ## Research focus
-Starlight Platform explores how XR smart glasses can serve as a primary human interface, while Android mobile devices, laptop workstations, and cloud services provide execution, context, and continuity. The objective is not to maximize engagement, but to reduce the effort required to move between tasks and information.
+Starlight Platform explores how Google XR smart glasses can serve as a primary human interface, while Android phones, Googlebook or Windows/Linux/Mac laptops, wearables, and cloud services provide execution, context, and continuity. The objective is not to maximize engagement, but to reduce the effort required to move between tasks and information, and to help people avoid addictive screen and technology habits.
 
 ## Platform proposition
 The work investigates a computing model in which:
@@ -24,7 +24,13 @@ The work investigates a computing model in which:
 2. Lower friction in cross-device workflows.
 3. Support learning, work, navigation, and routine management.
 4. Preserve user agency and transparent control.
-5. Create a realistic path from current devices to more specialized future hardware.
+5. Encourage peaceful living, deeper relationships, and meaningful reflection.
+6. Create a realistic path from current devices to more specialized future hardware.
+
+## Use cases
+- Infants: keep the experience calm and nonintrusive. The platform should avoid adding cognitive or technological burden while supporting caregivers through quiet assistance and context-aware reminders.
+- Children and teens: help students manage education-related stress by converting lecture capture into notes, summarizing key concepts, and coordinating study support across XR glasses, phones, laptops, and cloud services. The goal is to free time for family, faith, community, and nature.
+- Mid-age job holders: help people complete work, manage projects, and stay organized with less screen overwhelm. The system should orchestrate tasks, reminders, and research support so users can focus on priorities without becoming dependent on constant notifications or digital distraction.
 
 ## Research layers
 - Today: prototype the interaction model with existing XR-capable devices and companion applications.
@@ -48,7 +54,7 @@ flowchart LR
 - The system should explain its suggestions and allow them to be reviewed or ignored.
 
 ## Strategic outlook
-Starlight Platform is intended as a long-range research platform for ambient computing, human-centered AI, XR interfaces, and cross-device systems. Its value will be judged by whether it helps people spend less time managing technology and more time on learning, work, relationships, and other priorities.
+Starlight Platform is intended as a long-range research platform for ambient computing, human-centered AI, XR interfaces, and cross-device systems. Its value will be judged by whether it helps people spend less time managing technology and more time on learning, work, relationships, faith, and other priorities.
 
 ## References
 - Android Open Source Project documentation and platform architecture.
