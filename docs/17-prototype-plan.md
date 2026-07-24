@@ -1,7 +1,7 @@
 # Prototype plan
 
 ## Purpose
-This document outlines a practical prototype plan for Starlight that begins on existing devices and focuses on immediate user value.
+This document outlines a practical prototype plan for Starlight Platform that begins on existing devices and focuses on immediate user value.
 
 ## Background
 The platform should not begin with a full custom stack. Instead, it should validate the interaction model with a modest prototype that can be built and tested quickly. The prototype should be framed as a cross-device ambient intelligence system where XR glasses coordinate with Android mobile and laptop to reduce cognitive load, support learning, manage tasks, assist navigation, and provide optional reflection support.
@@ -17,6 +17,19 @@ A practical prototype should include:
 - An XR-capable device path for glanceable prompts and quick capture.
 - A laptop workflow for deeper drafting or review.
 - A simple sync layer for cross-device continuity.
+
+## Prototype capability: research orchestration
+
+The prototype will support:
+- searching trusted research sources
+- collecting references
+- summarizing papers
+- organizing reading lists
+- creating study plans
+- generating experiment notes
+- tracking progress across sessions
+
+These capabilities should remain permission-based and should operate through approved sources, public resources, or authorized integrations rather than assuming unrestricted access.
 
 ## Key workflows
 - Create a reminder from a voice or text prompt.

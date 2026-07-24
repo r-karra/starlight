@@ -1,7 +1,7 @@
 # Hardware architecture
 
 ## Purpose
-This document explains the hardware roles within the Starlight ambient intelligence platform and the rationale for a phased deployment strategy. The repository and platform are named Starlight; "Project Divine Connect" remains the working codename for the first product concept.
+This document explains the hardware roles within the Starlight Platform ambient intelligence platform and the rationale for a phased deployment strategy. The repository and platform are named Starlight Platform; "Project Divine Connect" remains the working codename for the first product concept.
 
 ## Background
 The system is organized as a device ecology rather than a single product. That structure allows the research effort to begin with existing hardware while preserving a path toward more specialized reference hardware.
@@ -19,7 +19,7 @@ The system is organized as a device ecology rather than a single product. That s
 
 The design should not assume that custom hardware is immediately available. Instead, the system should first demonstrate value on currently available devices and only then define a reference hardware target for future work.
 
-## Key workflows
+## Device responsibilities
 - The glasses present a short summary or reminder while the user is moving.
 - The phone resolves the action, potentially by launching a companion workflow or task.
 - The laptop handles a more complex request that benefits from a larger interface and richer editing surface.

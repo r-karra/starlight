@@ -1,15 +1,15 @@
 # System overview
 
 ## Purpose
-This document outlines the high-level structure of the Starlight platform and how its layers should work together.
+This document outlines the high-level structure of the Starlight Platform and how its layers should work together.
 
 ## Background
-A useful ambient intelligence system needs clear boundaries between sensing, reasoning, storage, and action. The Starlight model separates these concerns so the experience can be piloted gradually and evaluated with discipline.
+A useful ambient intelligence system needs clear boundaries between sensing, reasoning, storage, and action. The Starlight Platform model separates these concerns so the experience can be piloted gradually and evaluated with discipline.
 
 ## Goals
 - Define the functional roles of glasses, phone, laptop, and cloud.
 - Show how the system can support multimodal interaction without becoming overly complex.
-- Provide a cohesive frame for the later mode-specific documents.
+- Provide a cohesive frame for the later intelligence-engine documents.
 
 ## System design
 The system is organized as a layered architecture:

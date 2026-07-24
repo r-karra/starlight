@@ -1,7 +1,7 @@
 # Research roadmap
 
 ## Purpose
-This document defines the research roadmap for Starlight, separating near-term experiments from long-term platform ambitions.
+This document defines the research roadmap for Starlight Platform, separating near-term experiments from long-term platform ambitions.
 
 ## Background
 The project is intended to be a serious research platform, so the roadmap should be explicit about what is being tested, why it matters, and what evidence would justify future investment. The roadmap is structured around the Today layer for practical prototypes, the Research layer for experiments, and the Vision layer for longer-term platform concepts.
@@ -14,8 +14,13 @@ The project is intended to be a serious research platform, so the roadmap should
 ## System design
 The roadmap can be organized into three phases:
 1. Today: validate reminder, summarization, navigation, and cross-device handoff on existing devices.
-2. Research: explore memory, personalization, multimodal capture, and agentic workflows.
+2. Research: explore memory, personalization, multimodal capture, agentic workflows, and research access orchestration.
 3. Vision: investigate custom hardware and AOSP-based OS concepts for future reference systems.
+
+## Research access milestones
+- Establish permission-based access patterns for public and approved research sources.
+- Validate workflows for finding references, summarizing papers, and organizing notes.
+- Test notebook-based and document-based research workflows in a controlled prototype setting.
 
 ## Key workflows
 - Prototype a reminder and summarization loop on current devices.

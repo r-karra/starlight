@@ -1,7 +1,7 @@
 # Privacy and safety
 
 ## Purpose
-This document defines the privacy and safety posture for Starlight and clarifies the boundaries of the research platform.
+This document defines the privacy and safety posture for Starlight Platform and clarifies the boundaries of the research platform.
 
 ## Background
 An always-available assistant raises serious questions about data capture, consent, and trust. The system should be designed so that privacy is not an afterthought. This document is central to the Today and Research layers because a prototype will only gain user trust if it is explicit, configurable, and conservative about data handling.

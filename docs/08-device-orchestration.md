@@ -1,7 +1,7 @@
 # Device orchestration
 
 ## Purpose
-This document describes how Starlight should coordinate activity across glasses, phone, laptop, and cloud so the experience feels continuous and low-friction.
+This document describes how Starlight Platform should coordinate activity across glasses, phone, laptop, and cloud so the experience feels continuous and low-friction.
 
 ## Background
 Cross-device orchestration is one of the core differentiators of the platform. A useful assistant must know when to respond on the glasses, when to defer to the phone, and when to escalate to the laptop. This capability is foundational for the Today layer, where a prototype must feel coherent across devices, and it becomes more sophisticated as the Research and Vision layers mature.
@@ -16,6 +16,8 @@ The orchestration model should be event-driven and context-aware:
 - Immediate needs: glasses and phone handle short prompts, reminders, and quick summaries.
 - Deeper work: laptop handles drafting, analysis, and longer reading or editing.
 - Sync and continuity: cloud stores task state and selected context for later retrieval.
+
+The design treats handoff as a first-class architectural concern rather than an application-level convenience. The goal is to maintain continuity of task state across devices while preserving user control over what is shared, delayed, or suppressed.
 
 ```mermaid
 sequenceDiagram

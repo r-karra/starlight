@@ -1,7 +1,7 @@
 # Contributing
 
 ## Overview
-This repository is a documentation-first research platform for Starlight. Contributions should strengthen the research narrative, architecture reasoning, and documentation quality.
+This repository is a documentation-first research platform for Starlight Platform. Contributions should strengthen the research narrative, architecture reasoning, and documentation quality.
 
 ## Expectations
 - Keep writing clear, structured, and professional.
@@ -14,4 +14,4 @@ This repository is a documentation-first research platform for Starlight. Contri
 1. Review the documentation map in [docs/](docs/).
 2. Propose updates through a pull request or issue.
 3. Maintain links, terminology, and structure across the documentation set.
-4. Keep new material aligned with the long-term research focus of Starlight.
+4. Keep new material aligned with the long-term research focus of Starlight Platform.

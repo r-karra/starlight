@@ -1,7 +1,7 @@
 # Future hardware
 
 ## Purpose
-This document describes a long-term hardware vision for Starlight while keeping the focus on research and validation rather than immediate manufacturing.
+This document describes a long-term hardware vision for Starlight Platform while keeping the focus on research and validation rather than immediate manufacturing.
 
 ## Background
 Custom hardware can improve comfort, sensing quality, and device integration, but it should come after the interaction model is validated on existing devices. The goal is to define a research direction, not promise a near-term product. This document belongs primarily to the Vision layer, while remaining grounded in the lessons learned from the Today and Research phases.

@@ -1,11 +1,15 @@
 sequenceDiagram
+    participant U as User
     participant G as Glasses
     participant P as Phone
     participant L as Laptop
     participant C as Cloud
-    G->>P: Prompt or cue
-    P->>C: Store context and task state
-    P->>L: Escalate for deeper work
-    L->>C: Publish result
-    C->>P: Sync response
-    P->>G: Deliver concise follow-up
+    participant A as Ambient Intelligence
+
+    U->>G: issue intent
+    G->>A: forward cue and context
+    A->>P: select execution path
+    P->>L: hand off complex task
+    L->>C: publish result and state
+    C->>P: synchronize context
+    P->>G: deliver concise follow-up

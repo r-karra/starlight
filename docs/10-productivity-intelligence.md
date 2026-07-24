@@ -1,7 +1,7 @@
-# Work mode
+# Productivity intelligence engine
 
 ## Purpose
-This document describes a work-focused mode for Starlight that supports email drafting, calendar coordination, report creation, task tracking, and laptop handoff.
+This document describes the Productivity Intelligence Engine, a reusable AI subsystem within the Starlight Platform for email drafting, calendar coordination, report creation, task tracking, and laptop handoff.
 
 ## Background
 Knowledge work often requires moving between meetings, messages, documents, and follow-up tasks. A coordinating system can reduce the overhead of context switching and improve continuity across devices. In the Today layer, the value is in smoother handoff and better drafting support; in the Research layer, the goal is stronger task understanding and more reliable assistance.
@@ -12,11 +12,13 @@ Knowledge work often requires moving between meetings, messages, documents, and 
 - Make laptop handoff a natural part of the workflow.
 
 ## System design
-The work mode should center on a minimal set of high-value actions:
+The Productivity Intelligence Engine should center on a minimal set of high-value actions:
 - Draft and refine email responses from captured notes or conversation summaries.
 - Suggest calendar adjustments or event follow-ups.
 - Create report outlines or structured notes from meetings and references.
 - Track task progress and defer the next step to the appropriate device.
+
+This subsystem is intended to support structured knowledge work through context-aware assistance and device-aware handoff.
 
 ## Key workflows
 - Capture a meeting summary on the phone and refine it on the laptop.

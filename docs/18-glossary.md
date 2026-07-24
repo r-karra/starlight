@@ -1,7 +1,7 @@
 # Glossary
 
 ## Purpose
-This glossary defines core terms used throughout the Starlight documentation set.
+This glossary defines core terms used throughout the Starlight Platform documentation set.
 
 ## Background
 An emerging platform benefits from a shared vocabulary so that research, architecture, and design discussions stay consistent. The glossary helps connect the Today, Research, and Vision layers by making the terminology precise and reusable across the documentation set.

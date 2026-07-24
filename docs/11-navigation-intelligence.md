@@ -1,10 +1,10 @@
-# Navigation mode
+# Navigation intelligence engine
 
 ## Purpose
-This document describes a navigation-focused mode for Starlight that supports reminders, wayfinding, summarization, and situational awareness.
+This document describes the Navigation Intelligence Engine, a reusable AI subsystem within the Starlight Platform for reminders, wayfinding, summarization, and situational awareness.
 
 ## Background
-Navigation is one of the clearest near-term uses for ambient assistance. It combines agenda context, current location, and short-term memory in a way that benefits from glasses and phone coordination. This mode is well-suited to the Today layer because it provides immediate utility with limited complexity, while also informing later Research and Vision work on richer spatial context and more adaptive assistance.
+Navigation is one of the clearest near-term uses for ambient assistance. It combines agenda context, current location, and short-term memory in a way that benefits from glasses and phone coordination. This subsystem is well-suited to the Today layer because it provides immediate utility with limited complexity, while also informing later Research and Vision work on richer spatial context and more adaptive assistance.
 
 ## Goals
 - Support turn-by-turn guidance and situational awareness.
@@ -12,10 +12,12 @@ Navigation is one of the clearest near-term uses for ambient assistance. It comb
 - Connect navigation to reminders, tasks, and handoff needs.
 
 ## System design
-The navigation mode should integrate navigation services with task and reminder context:
+The Navigation Intelligence Engine should integrate navigation services with task and reminder context:
 - Provide lightweight direction or route updates through the glasses or phone.
 - Surface relevant reminders at the right time and location.
 - Summarize nearby context when helpful, without overwhelming the user.
+
+This subsystem is designed to provide situational awareness without becoming a dominant interface layer.
 
 ## Key workflows
 - Receive a reminder to pick up a package as you approach the destination.

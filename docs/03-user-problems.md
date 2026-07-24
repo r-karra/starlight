@@ -1,7 +1,7 @@
 # User problems
 
 ## Purpose
-This document captures the user problems that Starlight is intended to address across daily life, learning, and work.
+This document captures the user problems that Starlight Platform is intended to address across daily life, learning, and work.
 
 ## Background
 Users often experience fragmented attention, delayed follow-through, and information overload. The underlying problem is not simply the lack of tools; it is the absence of a coherent system that understands context and assists at the right moment.
@@ -11,14 +11,14 @@ Users often experience fragmented attention, delayed follow-through, and informa
 - Highlight use cases that justify an ambient assistant rather than a single-purpose app.
 - Clarify which experiences should be prototyped first.
 
-## System design
+## Problem domains
 The design focuses on several core user archetypes:
 - Student: needs lecture capture, study support, and revision planning.
 - Knowledge worker: needs summaries, drafting, calendar coordination, and task handoff.
 - Traveler or commuter: needs navigation, reminders, and low-friction context capture.
 - Wellness-oriented user: needs routines, reminders, and gentle guidance.
 
-## Key workflows
+## Interaction patterns
 - Record a lecture or meeting and later retrieve a concise summary or action list.
 - Receive reminders that reflect time, place, and current context.
 - Continue a task across glasses, phone, and laptop without losing continuity.

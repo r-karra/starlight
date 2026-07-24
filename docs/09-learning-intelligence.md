@@ -1,10 +1,10 @@
-# Student mode
+# Learning intelligence engine
 
 ## Purpose
-This document describes a student-focused mode for Starlight that supports lecture capture, study help, and revision planning.
+This document describes the Learning Intelligence Engine, a reusable AI subsystem within the Starlight Platform for lecture capture, study support, and revision planning.
 
 ## Background
-Students often face a high volume of information and limited time for review. A calm assistive system can turn captured material into structured study support with less manual effort. This mode is a strong Today-layer prototype because it offers immediate value through summaries, notes, and revision support, while also generating research questions for personalization and multimodal understanding.
+Students and learners often face a high volume of information and limited time for review. A calm assistive system can turn captured material into structured study support with less manual effort. This subsystem is a strong Today-layer prototype because it offers immediate value through summaries, notes, and revision support, while also generating research questions for personalization and multimodal understanding.
 
 ## Goals
 - Support lecture capture and post-class summarization.
@@ -12,11 +12,13 @@ Students often face a high volume of information and limited time for review. A 
 - Reduce friction between listening, note-taking, and follow-up study.
 
 ## System design
-The student mode should combine capture, summarization, and planning:
+The Learning Intelligence Engine should combine capture, summarization, and planning:
 - Capture: audio, slides, handwritten notes, or screenshots from class.
 - Summarization: generate concise summaries and key takeaways.
 - Study support: create flashcards, detect weak topics, and suggest revision blocks.
 - Handoff: move from glasses or phone capture to laptop review when more depth is needed.
+
+This subsystem is designed to operate as a reusable study-support layer rather than a narrow classroom tool.
 
 ## Key workflows
 - Record a lecture and later retrieve a summary with action items.

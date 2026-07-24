@@ -1,14 +1,21 @@
-# Starlight
+# Starlight Platform
 
 ## Ambient Intelligence Platform for Human-Centered Computing
 
-Starlight is a documentation-first research platform for ambient intelligence. The repository and platform are named Starlight. "Project Divine Connect" remains a working codename for the first product concept that may emerge from this research direction.
+Starlight Platform is a documentation-first research platform for an ambient intelligence system. The repository and platform are named Starlight Platform. "Project Divine Connect" remains a working codename for the first product concept that may emerge from this research direction.
 
 The work explores how XR smart glasses, Android mobile devices, laptop workstations, and cloud services can coordinate to reduce cognitive load and support everyday work, learning, navigation, and reflection. The emphasis is on calm assistance, explicit user control, and a practical path from current hardware toward more specialized reference systems.
 
+Starlight Platform is not framed as a single app or gadget project. It is a platform concept for cross-device assistance, research orchestration, and human-centered computing.
+
+## Three-layer structure
+- Today: prototype the experience on existing hardware and companion workflows.
+- Research: study context awareness, multimodal understanding, memory, and research access orchestration.
+- Vision: define a longer-term path toward reference hardware and platform customization.
+
 ## Mission
 
-Starlight investigates how computing can become less demanding and more useful. The effort focuses on:
+Starlight Platform investigates how computing can become less demanding and more useful. The effort focuses on:
 - reducing unnecessary attention switching
 - supporting learning and professional work across devices
 - providing low-friction assistance in daily routines
@@ -39,17 +46,19 @@ The current research posture is deliberately layered:
 - [docs/06-os-strategy.md](docs/06-os-strategy.md) — AOSP-based future direction and prototype path
 - [docs/07-ai-architecture.md](docs/07-ai-architecture.md) — agent and model architecture
 - [docs/08-device-orchestration.md](docs/08-device-orchestration.md) — cross-device coordination
-- [docs/09-student-mode.md](docs/09-student-mode.md) — student-focused workflows
-- [docs/10-work-mode.md](docs/10-work-mode.md) — professional productivity workflows
-- [docs/11-navigation-mode.md](docs/11-navigation-mode.md) — navigation and situational awareness
-- [docs/12-health-and-routine-mode.md](docs/12-health-and-routine-mode.md) — wellness and routine support
-- [docs/13-spiritual-reflection-mode.md](docs/13-spiritual-reflection-mode.md) — optional reflection and Bible study support
+- [docs/09-learning-intelligence.md](docs/09-learning-intelligence.md) — learning intelligence workflows
+- [docs/10-productivity-intelligence.md](docs/10-productivity-intelligence.md) — productivity intelligence workflows
+- [docs/11-navigation-intelligence.md](docs/11-navigation-intelligence.md) — navigation and situational awareness
+- [docs/12-routine-intelligence.md](docs/12-routine-intelligence.md) — wellness and routine support
+- [docs/13-reflection-intelligence.md](docs/13-reflection-intelligence.md) — optional reflection and Bible study support
 - [docs/14-privacy-and-safety.md](docs/14-privacy-and-safety.md) — privacy, safety, and trust
 - [docs/15-research-roadmap.md](docs/15-research-roadmap.md) — research agenda and milestones
 - [docs/16-future-hardware.md](docs/16-future-hardware.md) — long-term hardware concepts
 - [docs/17-prototype-plan.md](docs/17-prototype-plan.md) — near-term prototype plan
 - [docs/18-glossary.md](docs/18-glossary.md) — terminology reference
+- [docs/20-research-intelligence.md](docs/20-research-intelligence.md) — research intelligence engine
 - [docs/references.md](docs/references.md) — cited references and background reading
+- [architecture/README.md](architecture/README.md) — architecture specifications
 
 ## How to use this repo in Codespaces with Copilot
 1. Open the repository in GitHub Codespaces.

@@ -1,10 +1,10 @@
-# Health and routine mode
+# Routine intelligence engine
 
 ## Purpose
-This document describes how Starlight can support wellness, routines, reminders, and healthy habits without presenting itself as a medical system.
+This document describes the Routine Intelligence Engine, a reusable AI subsystem within the Starlight Platform for wellness, routines, reminders, and healthy habits without presenting itself as a medical system.
 
 ## Background
-Wellness support is a strong fit for ambient assistance because routines often depend on time, context, and gentle prompting. The system should support healthy habits without making diagnostic or treatment claims. This mode is best framed as a flexible support layer for the Today and Research phases, with more advanced personalization possible in later work.
+Wellness support is a strong fit for ambient assistance because routines often depend on time, context, and gentle prompting. The system should support healthy habits without making diagnostic or treatment claims. This subsystem is best framed as a flexible support layer for the Today and Research phases, with more advanced personalization possible in later work.
 
 ## Goals
 - Offer reminders and suggestions for routines, hydration, movement, and rest.
@@ -12,10 +12,12 @@ Wellness support is a strong fit for ambient assistance because routines often d
 - Keep wellness features configurable and optional.
 
 ## System design
-The health and routine mode should be designed as a supportive layer:
+The Routine Intelligence Engine should be designed as a supportive layer:
 - Reminders: hydration, medication timing if appropriate for the user’s own setup, stretching, sleep routines, and check-ins.
 - Suggestions: lightweight nudges based on schedule and context.
 - Tracking: simple logs or progress summaries when the user opts in.
+
+This subsystem is intended to support wellbeing and routine management through optional, configurable assistance.
 
 ## Key workflows
 - Receive a gentle reminder to hydrate or take a short movement break.

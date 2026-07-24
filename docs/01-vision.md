@@ -1,16 +1,16 @@
 # Vision
 
 ## Purpose
-Starlight is a research platform for ambient intelligence. It is not framed as a single consumer product, but as a broader platform investigation into how computing can better support human attention and activity across devices.
+Starlight Platform is a research platform for ambient intelligence. It is not framed as a single consumer product, but as a broader platform investigation into how computing can better support human attention and activity across devices.
 
 ## Naming
-The repository and platform are named Starlight. "Project Divine Connect" is retained as a working codename for the first product concept that may emerge from this research direction.
+The repository and platform are named Starlight Platform. "Project Divine Connect" is retained as a working codename for the first product concept that may emerge from this research direction.
 
 ## Background
 Modern computing increasingly fragments attention across notifications, applications, meetings, and devices. The opportunity is to reduce that burden by creating systems that coordinate work in the background, present concise assistance when useful, and remain under user control.
 
 ## Research focus
-Starlight explores how XR smart glasses can serve as a primary human interface, while Android mobile devices, laptop workstations, and cloud services provide execution, context, and continuity. The objective is not to maximize engagement, but to reduce the effort required to move between tasks and information.
+Starlight Platform explores how XR smart glasses can serve as a primary human interface, while Android mobile devices, laptop workstations, and cloud services provide execution, context, and continuity. The objective is not to maximize engagement, but to reduce the effort required to move between tasks and information.
 
 ## Platform proposition
 The work investigates a computing model in which:
@@ -47,8 +47,8 @@ flowchart LR
 - Privacy and transparency are design requirements.
 - The system should explain its suggestions and allow them to be reviewed or ignored.
 
-## Looking ahead
-Starlight is intended as a long-range research platform for ambient computing, human-centered AI, XR interfaces, and cross-device systems. Its value will be judged by whether it helps people spend less time managing technology and more time on learning, work, relationships, and other priorities.
+## Strategic outlook
+Starlight Platform is intended as a long-range research platform for ambient computing, human-centered AI, XR interfaces, and cross-device systems. Its value will be judged by whether it helps people spend less time managing technology and more time on learning, work, relationships, and other priorities.
 
 ## References
 - Android Open Source Project documentation and platform architecture.

@@ -1,7 +1,7 @@
 # OS strategy
 
 ## Purpose
-This document frames the operating system strategy for Starlight as a future direction rather than an immediate implementation claim.
+This document frames the operating system strategy for Starlight Platform as a future direction rather than an immediate implementation claim.
 
 ## Background
 The platform is intentionally described as compatible with existing devices first. A deeper customization path can later be considered through Android Open Source Project (AOSP)-based work, especially for specialized wearable and mobile experiences.
@@ -19,7 +19,7 @@ The proposed strategy has three stages:
 
 This does not imply that Google or other vendors would directly expose private internals. Instead, the research path should be framed as an ecosystem and platform exploration that could eventually use AOSP-based components where appropriate.
 
-## Key workflows
+## OS responsibilities
 - A prototype can run using current device capabilities and existing app infrastructure.
 - A later OS layer could improve system-level handoff, background coordination, and device-specific behaviors.
 - The user should remain able to control permissions, defaults, and privacy boundaries.

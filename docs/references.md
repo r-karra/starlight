@@ -1,7 +1,7 @@
 # References
 
 ## Purpose
-This page provides a curated list of background references for the Starlight research platform.
+This page provides a curated list of background references for the Starlight Platform research platform.
 
 ## Background
 The research platform is intentionally broad, spanning XR interaction, mobile orchestration, AI assistance, privacy, and future device architecture. The references below provide a starting point for further study and support the platform’s layered progression from prototype to longer-range research.

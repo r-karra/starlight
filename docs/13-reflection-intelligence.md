@@ -1,10 +1,10 @@
-# Spiritual reflection mode
+# Reflection intelligence engine
 
 ## Purpose
-This document describes an optional mode for reflection, prayer, and Bible study support that is user-configurable and not presented as authoritative doctrine.
+This document describes the Reflection Intelligence Engine, a reusable AI subsystem within the Starlight Platform for reflection, prayer, and Bible study support that is user-configurable and not presented as authoritative doctrine.
 
 ## Background
-Many users value quiet, reflective practices alongside productivity and learning. An ambient system can support that experience by helping the user access selected texts, notes, or prompts in a calm and respectful way. This mode should remain optional and user-configured, with its strongest value in the Today layer through simple routines and in the Vision layer through more personalized reflection experiences.
+Many users value quiet, reflective practices alongside productivity and learning. An ambient system can support that experience by helping the user access selected texts, notes, or prompts in a calm and respectful way. This subsystem should remain optional and user-configured, with its strongest value in the Today layer through simple routines and in the Vision layer through more personalized reflection experiences.
 
 ## Goals
 - Provide optional reflection support without imposing a belief system.
@@ -12,10 +12,12 @@ Many users value quiet, reflective practices alongside productivity and learning
 - Avoid presenting the system as authoritative spiritual guidance.
 
 ## System design
-The spiritual reflection mode should be designed as a personal support layer:
+The Reflection Intelligence Engine should be designed as a personal support layer:
 - User-selected texts: Bible passages, devotional materials, or personal notes chosen by the user.
 - Reflection prompts: optional prompts for journaling, prayer, or review.
 - Companion workflows: tie reflection reminders to routines, study periods, or quiet moments.
+
+This subsystem is designed to remain optional, user-configured, and clearly separated from authoritative guidance.
 
 ## Key workflows
 - Open a selected passage or reflection prompt at a user-defined time.

@@ -1,7 +1,7 @@
 # Documentation index
 
 ## Purpose
-This index provides the primary entry point for the Starlight research platform. It organizes the documentation into a layered narrative covering the present, the research frontier, and the long-term vision.
+This index provides the primary entry point for the Starlight Platform research platform. It organizes the documentation into a layered narrative covering the present, the research frontier, and the long-term vision.
 
 ## Background
 The documentation set is designed to help readers move from a high-level concept to detailed design thinking without losing sight of the platform’s boundaries. The index therefore acts as both a map and a guide for the repository’s research posture.
@@ -14,7 +14,7 @@ The documentation set is designed to help readers move from a high-level concept
 ## System design
 The documentation is organized into three layers:
 - Today: prototype the experience on existing XR-capable devices and companion applications.
-- Research: examine context memory, multimodal capture, personalization, and agentic workflows.
+- Research: examine context memory, multimodal capture, personalization, agentic workflows, and research access orchestration.
 - Vision: define the longer-term path for reference hardware and AOSP-based platform exploration.
 
 ### Today
@@ -22,24 +22,34 @@ The documentation is organized into three layers:
 - [docs/04-system-overview.md](docs/04-system-overview.md) — the first viable system model
 - [docs/05-hardware-architecture.md](docs/05-hardware-architecture.md) — how existing devices can participate
 - [docs/08-device-orchestration.md](docs/08-device-orchestration.md) — cross-device coordination patterns
-- [docs/09-student-mode.md](docs/09-student-mode.md) — student-facing workflows
-- [docs/10-work-mode.md](docs/10-work-mode.md) — workplace productivity workflows
-- [docs/11-navigation-mode.md](docs/11-navigation-mode.md) — navigation and awareness support
-- [docs/12-health-and-routine-mode.md](docs/12-health-and-routine-mode.md) — wellness and routine support
+- [docs/09-learning-intelligence.md](docs/09-learning-intelligence.md) — learning intelligence workflows
+- [docs/10-productivity-intelligence.md](docs/10-productivity-intelligence.md) — productivity intelligence workflows
+- [docs/11-navigation-intelligence.md](docs/11-navigation-intelligence.md) — navigation and awareness support
+- [docs/12-routine-intelligence.md](docs/12-routine-intelligence.md) — wellness and routine support
 - [docs/14-privacy-and-safety.md](docs/14-privacy-and-safety.md) — trust and safety boundaries
 - [docs/17-prototype-plan.md](docs/17-prototype-plan.md) — the near-term prototype agenda
 
 ### Research
 - [docs/07-ai-architecture.md](docs/07-ai-architecture.md) — model and agent research posture
 - [docs/15-research-roadmap.md](docs/15-research-roadmap.md) — experiments and milestones
+- [docs/20-research-intelligence.md](docs/20-research-intelligence.md) — research intelligence engine
 - [docs/references.md](docs/references.md) — background references
 
 ### Vision
-- [docs/01-vision.md](docs/01-vision.md) — long-range product and ecosystem framing
+- [docs/00-platform-manifesto.md](docs/00-platform-manifesto.md) — the platform manifesto and rationale
+- [docs/01-vision.md](docs/01-vision.md) — long-range platform and ecosystem framing
 - [docs/02-principles.md](docs/02-principles.md) — design principles for the platform
 - [docs/06-os-strategy.md](docs/06-os-strategy.md) — future AOSP-based OS strategy
-- [docs/13-spiritual-reflection-mode.md](docs/13-spiritual-reflection-mode.md) — optional reflection and study support
+- [docs/13-reflection-intelligence.md](docs/13-reflection-intelligence.md) — optional reflection and study support
 - [docs/16-future-hardware.md](docs/16-future-hardware.md) — forward-looking hardware concepts
+
+### Architecture
+- [architecture/README.md](architecture/README.md) — architecture specification index
+- [architecture/01-platform-architecture.md](architecture/01-platform-architecture.md) — layered platform architecture
+- [architecture/02-context-and-sensing.md](architecture/02-context-and-sensing.md) — sensing and context architecture
+- [architecture/03-runtime-orchestration.md](architecture/03-runtime-orchestration.md) — runtime orchestration architecture
+- [architecture/04-data-and-memory.md](architecture/04-data-and-memory.md) — data and memory architecture
+- [architecture/05-agents.md](architecture/05-agents.md) — multi-agent architecture
 
 ## Key workflows
 - Start with the overview docs and move outward into the mode-specific documents.
