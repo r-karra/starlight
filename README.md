@@ -4,7 +4,7 @@
 
 Starlight Platform is a documentation-first research platform for an ambient intelligence system. The repository and platform are named Starlight Platform. "Project Divine Connect" remains a working codename for the first product concept that may emerge from this research direction.
 
-The work explores how Google XR smart glasses, Android phones, Googlebook or Windows/Linux/Mac laptops, and wearable devices can coordinate to reduce cognitive load and support everyday work, learning, navigation, and reflection. The emphasis is on calm assistance, explicit user control, and a practical path from current hardware toward more specialized reference systems.
+The work explores how Google XR smart glasses, Android phones, Googlebook or Windows/Linux/Mac laptops, and wearable devices can coordinate to reduce cognitive load and support everyday work, learning, navigation, and reflection. It also looks at how these devices can be combined with modern AI stacks and research tools to help people avoid screen addiction, technological dependency, and stress from constant work or desire-driven goals.
 
 Starlight Platform is not framed as a single app or gadget project. It is a platform concept for cross-device assistance, research orchestration, and human-centered computing that aims to reduce screen addiction, technological dependency, work stress, and desire-driven anxiety.
 

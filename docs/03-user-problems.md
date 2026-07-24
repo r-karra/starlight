@@ -13,10 +13,12 @@ Users often experience fragmented attention, delayed follow-through, and informa
 
 ## Problem domains
 The design focuses on several core user archetypes:
-- Student: needs lecture capture, study support, and revision planning.
-- Knowledge worker: needs summaries, drafting, calendar coordination, and task handoff.
-- Traveler or commuter: needs navigation, reminders, and low-friction context capture.
-- Wellness-oriented user: needs routines, reminders, and gentle guidance.
+- Infant caregiver: needs calm, non-intrusive support that preserves a peaceful home rhythm and avoids adding cognitive burden.
+- Student: needs lecture capture, study support, concept understanding, and stress reduction.
+- Knowledge worker: needs summaries, drafting, calendar coordination, task handoff, and better work-life balance.
+- Wellness- and family-oriented user: needs routine support, reflection prompts, and tools that encourage relationships with family, society, nature, and faith.
+
+The broader opportunity is to help people avoid screen addiction, technological dependency, and desire-driven anxiety while staying connected to the values that matter most.
 
 ## Interaction patterns
 - Record a lecture or meeting and later retrieve a concise summary or action list.

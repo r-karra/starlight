@@ -15,6 +15,13 @@ The immediate prototype path is grounded in existing hardware and software ecosy
 - Explore whether the platform can help reduce screen addiction, technological dependency, work stress, desire-driven stress, and financial anxiety.
 - Support an experience that encourages peaceful living, stronger family and social ties, and values-based reflection.
 
+## Success metrics
+- reduction in perceived screen and notification overload for prototype users.
+- lower education-related or job-related stress in targeted use cases.
+- improved continuity of tasks across XR glasses, phone, laptop, and cloud.
+- faster concept comprehension and study effectiveness for students.
+- higher user trust in privacy, control, and non-intrusive assistance.
+
 ## System design
 A practical prototype should include:
 - Devices: Google XR smart glasses, Android phone, Googlebook or Windows/Linux/Mac laptop, and wearable sensors as supporting surfaces.
@@ -63,6 +70,31 @@ These workflows should remain explicit, permission-driven, and oriented toward l
 - It should prioritize cross-device flow and user trust over feature breadth.
 - It should avoid implying that proprietary internals can be changed directly.
 - It should clearly separate immediate companion app work from later AOSP-based OS research.
+
+## Implementation roadmap
+A phased prototype roadmap helps keep the work grounded and testable.
+
+### Phase 1: Companion workflows and capture
+- Build an XR-enabled lecture capture and note summary workflow using existing smart glasses and mobile input.
+- Create a mobile companion experience for reminders, task creation, and privacy control.
+- Sync captured context with a lightweight cloud state store so phone and laptop continuity can be demonstrated.
+- Validate the student workflow with lecture capture, note generation, and calendar/task creation.
+
+### Phase 2: Cross-device handoff and research support
+- Add explicit orchestration patterns for handoff between glasses, phone, laptop, and cloud.
+- Implement simple research assistance that uses captured context to refine search or study results.
+- Demonstrate a student asking XR glasses for topic explanation and receiving follow-up content through the device.
+- Add support for job-holder workflows, such as task progress tracking across devices and low-friction work reminders.
+
+### Phase 3: Stress reduction and values-oriented support
+- Introduce prototype features that help users reduce screen and notification overload.
+- Add contextual reflection prompts and calm reminders that encourage family, society, nature, and faith-centered priorities.
+- Validate whether the prototype measurably reduces perceived stress and supports more peaceful daily rhythms.
+
+### Phase 4: Research and longer-term OS direction
+- Explore AOSP-based prototyping only once the core interaction model is validated.
+- Investigate whether deeper platform customization can improve XR capture, task routing, and privacy controls.
+- Use prototype results to guide research on trust, continuity, multimodal context, and adaptive assistance.
 
 ## Future work
 Future iterations can add stronger memory, richer personalization, and more capable multimodal workflows as the prototype matures. A longer-term research path can also explore AOSP-based customization for XR and Android experiences.

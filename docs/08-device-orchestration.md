@@ -12,10 +12,17 @@ Cross-device orchestration is one of the core differentiators of the platform. A
 - Keep the experience calm and predictable.
 
 ## System design
-The orchestration model should be event-driven and context-aware:
-- Immediate needs: glasses and phone handle short prompts, reminders, and quick summaries.
-- Deeper work: laptop handles drafting, analysis, and longer reading or editing.
-- Sync and continuity: cloud stores task state and selected context for later retrieval.
+The orchestration model should be event-driven and context-aware across devices and services:
+- Devices: Google XR smart glasses capture glanceable prompts, audio, images, and commands.
+- Mobile: Android phones coordinate context, privacy controls, reminders, and short-form interactions.
+- Laptop: Googlebook or Windows/Linux/Mac laptops handle deeper drafting, review, research, and long-form work.
+- Cloud: sync, continuity, AI refinement, and shared state storage support cross-device handoff.
+
+The orchestration model should also integrate AI stack services such as Gemini/Gemma and companion models to refine captured concepts, summarize learning material, and support intuitive research assistance.
+
+- Immediate needs: glasses and phone handle short prompts, reminders, capture, and quick summaries.
+- Deeper work: laptop handles drafting, analysis, research, and longer editing.
+- Sync and continuity: cloud stores task state, selected context, and refinement results for later retrieval.
 
 The design treats handoff as a first-class architectural concern rather than an application-level convenience. The goal is to maintain continuity of task state across devices while preserving user control over what is shared, delayed, or suppressed.
 
@@ -37,6 +44,8 @@ sequenceDiagram
 - A reminder created on the phone becomes visible on the glasses at the appropriate moment.
 - A note captured during a walk can later become a richer draft on the laptop.
 - A study task started on the phone can be resumed on the laptop without losing state.
+- A student can ask XR glasses for research help and the system can coordinate context across phone, laptop, cloud, and AI services to refine a concept and explain it back through the glasses.
+- A job holder can begin a task on the phone or glasses, let the platform manage scheduling and progress, and complete deeper work on the laptop with continuity.
 
 ## Constraints
 - Network quality and device availability affect orchestration.
