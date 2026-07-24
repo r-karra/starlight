@@ -22,6 +22,15 @@ The immediate prototype path is grounded in existing hardware and software ecosy
 - faster concept comprehension and study effectiveness for students.
 - higher user trust in privacy, control, and non-intrusive assistance.
 
+## Why this prototype is a good starting point
+This prototype focuses on a minimal, testable set of cross-device workflows that align with your mission: reducing addiction, supporting learning, and creating calm, values-aligned support.
+
+It is a good starting point because it:
+- uses existing device capabilities rather than assuming platform-level changes,
+- builds a clear, measurable path from capture to summary to review,
+- keeps privacy and consent explicit,
+- leaves deeper OS/AOSP customization as a future research direction.
+
 ## System design
 A practical prototype should include:
 - Devices: Google XR smart glasses, Android phone, Googlebook or Windows/Linux/Mac laptop, and wearable sensors as supporting surfaces.

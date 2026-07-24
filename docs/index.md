@@ -28,6 +28,7 @@ The documentation is organized into three layers:
 - [docs/12-routine-intelligence.md](docs/12-routine-intelligence.md) — wellness and routine support
 - [docs/14-privacy-and-safety.md](docs/14-privacy-and-safety.md) — trust and safety boundaries
 - [docs/17-prototype-plan.md](docs/17-prototype-plan.md) — the near-term prototype agenda
+- [docs/showcase.md](docs/showcase.md) — demo story and prototype showcase
 
 ### Research
 - [docs/07-ai-architecture.md](docs/07-ai-architecture.md) — model and agent research posture
