@@ -1,0 +1,8 @@
+flowchart TD
+    A[User intent] --> B[Capture context]
+    B --> C[Route to assistant]
+    C --> D{Need deeper work?}
+    D -->|No| E[Glasses or phone response]
+    D -->|Yes| F[Laptop workflow]
+    F --> G[Return result]
+    E --> G

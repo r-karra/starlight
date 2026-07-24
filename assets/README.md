@@ -1,4 +1,3 @@
 # Assets
 
-## Purpose
-This folder will hold design assets, templates, and supporting media for documentation and presentation work.
+This folder is reserved for supporting assets such as diagrams, reference images, and future design materials for the Starlight documentation platform.

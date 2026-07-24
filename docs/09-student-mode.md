@@ -1,0 +1,37 @@
+# Student mode
+
+## Purpose
+This document describes a student-focused mode for Starlight that supports lecture capture, study help, and revision planning.
+
+## Background
+Students often face a high volume of information and limited time for review. A calm assistive system can turn captured material into structured study support with less manual effort. This mode is a strong Today-layer prototype because it offers immediate value through summaries, notes, and revision support, while also generating research questions for personalization and multimodal understanding.
+
+## Goals
+- Support lecture capture and post-class summarization.
+- Offer revision planning using weak-topic detection and spaced review.
+- Reduce friction between listening, note-taking, and follow-up study.
+
+## System design
+The student mode should combine capture, summarization, and planning:
+- Capture: audio, slides, handwritten notes, or screenshots from class.
+- Summarization: generate concise summaries and key takeaways.
+- Study support: create flashcards, detect weak topics, and suggest revision blocks.
+- Handoff: move from glasses or phone capture to laptop review when more depth is needed.
+
+## Key workflows
+- Record a lecture and later retrieve a summary with action items.
+- Generate flashcards from key concepts and identify weak topics for revision.
+- Build a revision plan that balances upcoming deadlines and prior performance.
+
+## Constraints
+- Transcription and extraction quality may vary by environment and speaker.
+- Students may need flexible controls for how much content is processed and stored.
+- The system should support both quick summaries and deeper study workflows.
+
+## Future work
+Future work should evaluate the quality of study recommendations, explore better personalization, and test multimodal capture in classroom environments.
+
+## References
+- Learning science and spaced repetition research.
+- Lecture capture and note-taking support studies.
+- Educational technology and adaptive learning literature.
